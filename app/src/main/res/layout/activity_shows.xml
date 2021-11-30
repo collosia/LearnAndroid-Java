@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doc">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idWebView"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/PBloading"
+        android:layout_gravity="center"
+        android:visibility="gone"
+
+        />
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        android:scrollIndicators="right"
+        app:hideOnScroll="true"
+        />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_menu"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@drawable/selector"
+        android:layout_gravity="bottom"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        app:itemRippleColor="@android:color/transparent"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

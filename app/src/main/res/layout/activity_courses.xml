@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Links"
+    android:background="@drawable/edmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_anchor="@+id/linearLayout"
+            app:layout_anchorGravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Courses"
+                    android:textColor="@color/cardview_dark_background"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textSize="30sp"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginLeft="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All the important courses required for Android "
+                    android:textColor="@color/cardview_dark_background"
+                    android:layout_marginStart="27dp"
+                    android:fontFamily="@font/robo"/>
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+
+                    android:src="@drawable/div2"
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard1"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/mclass"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Android Masterclass"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard2"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/jetpack"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Jetpack Compose"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard3"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/depend"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Dependancy Injection"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard4"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/git">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginBottom="15dp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:text="How to GitHub"
+                            android:textColor="#5C5C5C"
+                            android:textSize="25sp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard5"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardcourse1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Android Architecture"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard6"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardcourse2"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Kotlin Language"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard7"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardcourse3"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="REST API"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard8"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardcourse4"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Android Architecture"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:id="@+id/linkcard9"
+
+                    app:cardBackgroundColor="@android:color/transparent"
+                    app:cardElevation="0dp"
+                    app:cardUseCompatPadding="true">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardcourse5"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Retrofit"
+                            android:textColor="#5C5C5C"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginStart="40dp"
+                            android:textSize="25sp"
+                            android:fontFamily="@font/robo"
+                            android:gravity="bottom"
+                            android:textStyle="bold"
+                            >
+                        </TextView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        android:scrollIndicators="right"
+        app:hideOnScroll="true"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_menu"
+            android:background="@android:color/transparent"
+
+            app:labelVisibilityMode="labeled"
+            app:itemTextColor="@drawable/selector"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:outlineSpotShadowColor="@android:color/transparent"
+            app:itemRippleColor="@android:color/transparent"
+            android:outlineAmbientShadowColor="@android:color/transparent"
+
+            />
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

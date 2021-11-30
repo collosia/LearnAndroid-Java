@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".GetStart">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loView"
+        android:layout_width="500dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="-170dp"
+        android:layout_height="1200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        android:visibility="visible"
+        app:lottie_rawRes="@raw/bgback" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/startt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/lemonmilk"
+            android:text="Start your"
+            android:textSize="50sp"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/andro"
+            android:fontFamily="@font/lemonmilk"
+            android:text="Android journey"
+            android:visibility="gone"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lemonmilk"
+            android:visibility="gone"
+            android:text="HERE"
+            android:id="@+id/here"
+            android:textSize="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="120dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@+id/linearLayout2"
+        app:layout_anchorGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <com.royrodriguez.transitionbutton.TransitionButton
+            android:id="@+id/tbutton"
+            android:layout_width="133dp"
+            android:layout_height="57dp"
+            android:text="GET Started"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="590dp"
+            android:textColor="@android:color/white"
+            app:defaultColor="#385C94"
+            app:loaderColor="white"
+            android:visibility="gone"/>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

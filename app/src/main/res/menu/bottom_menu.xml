@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/links"
+        android:title="Links"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/links"
+        />
+    <item
+        android:id="@+id/courses"
+        android:title="Courses"
+        android:icon="@drawable/courses"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/Timeline"
+        android:title="Timeline"
+        android:icon="@drawable/ichome"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <item
+        android:id="@+id/doc"
+        android:title="Doc"
+        android:icon="@drawable/docu"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/showc"
+        android:title="UI Ideas"
+        android:icon="@drawable/ic_baseline_ads_click_24"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.10740740740740741" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_baseline_slideshow_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.2755208333333333" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2755208333333333" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2755208333333333" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/icaccount.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/ichome.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/icinfo.xml" value="0.2755208333333333" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_bottom_menu.xml" value="0.25833333333333336" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_courses.xml" value="0.25" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_doc.xml" value="0.2" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_get_start.xml" value="0.1" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_links.xml" value="0.25" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_showcase.xml" value="0.264" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_shows.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/activity_splash.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/buttonbg.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/dia_layout.xml" value="0.25" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/item_rv_sub_category.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/layout/single_item.xml" value="0.259375" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/menu/bottom_menu.xml" value="0.264" />
+        <entry key="..\:/AProjects/LearnApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

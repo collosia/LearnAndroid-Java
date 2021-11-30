@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backback2"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:fadeScrollbars="true"
+            android:fadingEdge="vertical"
+            android:isScrollContainer="true"
+            android:paddingTop="1dp"
+            android:scrollbarFadeDuration="@integer/material_motion_duration_medium_2"
+            android:scrollbars="vertical"
+            android:requiresFadingEdge="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animationView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+
+                    app:lottie_autoPlay="true"
+                    app:lottie_rawRes="@raw/person1" />
+
+                <TextView
+                    android:id="@+id/welx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text= "Android TimeLine "
+                    android:textColor="#B2FFFFFF"
+                    android:fontFamily="@font/lemonmilk"
+                    android:textSize="30sp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginStart="30dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:src="@drawable/div2"
+                    />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iicon"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="13dp"
+                    android:alpha="0.7"
+                    android:src="@drawable/information" />
+
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/iicon"
+
+                    android:layout_marginLeft="40dp"
+                    android:paddingBottom="10dp"
+                    android:text="This is the timeline. All Udacity courses are featured by Android developers who work at Google &amp; Android documentation.
+ "
+                    android:textColor="#B2E1CACA" />
+
+            </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Java Courses"
+                    android:fontFamily="@font/lemon"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#B2FFFFFF"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"
+                        android:overScrollMode="never"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            >
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/jdoc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@android:color/transparent"
+                                app:cardElevation="0dp"
+                                app:cardUseCompatPadding="true">
+                                <LinearLayout
+                                    android:layout_width="150dp"
+                                    android:layout_height="170dp"
+                                    android:background="@drawable/button23"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="40dp"
+                                        android:layout_marginBottom="11dp"
+                                        android:fontFamily="@font/lemonmilk"
+                                        android:gravity="bottom"
+                                        android:text="JAVA DOC"
+                                        android:textColor="#C6727073"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/maincard2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:cardBackgroundColor="@android:color/transparent"
+                                app:cardElevation="0dp"
+                                app:cardUseCompatPadding="true">
+                                <LinearLayout
+                                    android:layout_width="150dp"
+                                    android:layout_height="170dp"
+                                    android:background="@drawable/main_item6"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="25dp"
+                                        android:layout_marginBottom="11dp"
+                                        android:fontFamily="@font/lemonmilk"
+                                        android:gravity="bottom"
+                                        android:text="MASTERCLASS"
+                                        android:textColor="#C6727073"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/maincard3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                app:cardBackgroundColor="@android:color/transparent"
+                                app:cardElevation="0dp"
+                                app:cardUseCompatPadding="true">
+                                <LinearLayout
+                                    android:layout_width="150dp"
+                                    android:layout_height="170dp"
+                                    android:background="@drawable/main_item7"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text=""
+                                        android:textColor="#5C5C5C"
+
+                                        android:textSize="25sp"
+                                        android:fontFamily="@font/robo"
+                                        android:gravity="bottom"
+                                        android:textStyle="bold"
+                                        >
+                                    </TextView>
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/maincard4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                app:cardBackgroundColor="@android:color/transparent"
+                                app:cardElevation="0dp"
+                                app:cardUseCompatPadding="true">
+                                <LinearLayout
+                                    android:layout_width="150dp"
+                                    android:layout_height="170dp"
+                                    android:background="@drawable/main_item5"
+                                    >
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginStart="25dp"
+                                        android:layout_marginBottom="11dp"
+                                        android:fontFamily="@font/lemonmilk"
+                                        android:gravity="bottom"
+                                        android:text="HACKERANK"
+                                        android:textColor="#C6727073"
+                                        android:textSize="13sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Courses"
+                    android:fontFamily="@font/lemon"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/cardview_dark_background"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvPrograms"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_anchor="@+id/bottomAppBar"
+                    app:layout_anchorGravity="top|center"
+                    android:overScrollMode="never"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="13dp"
+                        android:alpha="0.7"
+                        android:src="@drawable/information" />
+
+
+                    <TextView
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="65dp"
+                        android:paddingBottom="10dp"
+                        android:text="Some of the Udacity are outdated but they start with the basics of programming."
+                        android:textColor="@color/cardview_dark_background" />
+
+                    <ImageView
+                        android:id="@+id/aboutme"
+                        android:layout_width="42dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="23dp"
+                        android:src="@drawable/ic_baseline_supervised_user_circle_24" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:titleTextColor="@color/black"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp"
+        android:scrollIndicators="right"
+        app:hideOnScroll="true"
+        >
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_menu"
+
+            android:background="@color/white"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:labelVisibilityMode="labeled"
+            app:itemTextColor="@drawable/selector"
+            android:layout_gravity="bottom"
+
+            />
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
