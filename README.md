@@ -1,5 +1,5 @@
 
-![Logo](images/)
+![Logo](images/icon.png)
 
 
 LearnAndroid Java
