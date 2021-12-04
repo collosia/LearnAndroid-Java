@@ -10,11 +10,8 @@ An assembly of finest courses from Udacity, Udemy and YouTube. It also includes 
 
 ## Screenshots
 
-![]images/Screenshot_1638310222.png)
-![]images/Screenshot_1638310247.png)
-![]images/Screenshot_1638310254.png)
-![]images/Screenshot_1638310261.png)
-![]images/Screenshot_1638310266.png)
+
+<img src="images/Screenshot_1638310222.png" width= 350 height= 700><img src="images/Screenshot_1638310247.png" width= 350 height= 700><img src="images/Screenshot_1638310254.png" width= 350 height= 700><img src="images/Screenshot_1638310261.png" width= 350 height= 700><img src="images/Screenshot_1638310266.png" width= 350 height= 700>
 
 
 
