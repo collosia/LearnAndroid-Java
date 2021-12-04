@@ -10,7 +10,7 @@ An assembly of finest courses from Udacity, Udemy and YouTube. It also includes 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot]images/)
 
 
 ## Features
