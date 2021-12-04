@@ -1,5 +1,5 @@
 
-![Logo](images/icon.png)
+![Logo](images/0ac93f16c69bf2960615f9ac340cd38f@1.25x.png)
 
 
 LearnAndroid Java
