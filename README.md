@@ -10,11 +10,11 @@ An assembly of finest courses from Udacity, Udemy and YouTube. It also includes 
 
 ## Screenshots
 
-![App Screenshot]images/Screenshot_1638310222.png)
-![App Screenshot]images/Screenshot_1638310247.png)
-![App Screenshot]images/Screenshot_1638310254.png)
-![App Screenshot]images/Screenshot_1638310261.png)
-![App Screenshot]images/Screenshot_1638310266.png)
+![]images/Screenshot_1638310222.png)
+![]images/Screenshot_1638310247.png)
+![]images/Screenshot_1638310254.png)
+![]images/Screenshot_1638310261.png)
+![]images/Screenshot_1638310266.png)
 
 
 
