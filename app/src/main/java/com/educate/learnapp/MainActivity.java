@@ -1,4 +1,4 @@
-package com.example.learnapp;
+package com.educate.learnapp;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -25,6 +25,7 @@ import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.learnapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -33,11 +34,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity  {
     BottomNavigationView bottomNavigationView;
-    com.example.learnapp.DatabaseAdapter databaseAdapter;
+    DatabaseAdapter databaseAdapter;
     RecyclerView rvPrograms;
-    com.example.learnapp.ContactsAdapter contactsAdapter;
+    ContactsAdapter contactsAdapter;
     RecyclerView.LayoutManager layoutManager;
-    List<com.example.learnapp.Contacts> contactsList = new ArrayList<>();
+    List<Contacts> contactsList = new ArrayList<>();
     TextView welx;
     CardView jdoc,maincard2,maincard3,maincard4;
     Context context;
@@ -104,14 +105,14 @@ public class MainActivity extends AppCompatActivity  {
         bottomNavigationView.setBackground(null);
         NestedScrollView nestedS = findViewById(R.id.nestedS);
         nestedS.setFadingEdgeLength(150);
-        com.example.learnapp.PreCreateDB.copyDB(this);
-        databaseAdapter = new com.example.learnapp.DatabaseAdapter(this);
+        PreCreateDB.copyDB(this);
+        databaseAdapter = new DatabaseAdapter(this);
         contactsList = databaseAdapter.getAllContacts();
         rvPrograms = findViewById(R.id.rvPrograms);
         rvPrograms.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         rvPrograms.setLayoutManager(layoutManager);
-        contactsAdapter = new com.example.learnapp.ContactsAdapter(this, contactsList, rvPrograms);
+        contactsAdapter = new ContactsAdapter(this, contactsList, rvPrograms);
         rvPrograms.setAdapter(contactsAdapter);
         Window g = getWindow();
 

@@ -1,4 +1,4 @@
-package com.example.learnapp;
+package com.educate.learnapp;
 
 public class Contacts {
     private long id;

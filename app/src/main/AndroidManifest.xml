@@ -14,24 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnApp">
         <activity
-            android:name=".Shows"
+            android:name="com.educate.learnapp.Shows"
             android:exported="true" />
 
         <activity
-            android:name=".Doc"
+            android:name="com.educate.learnapp.Doc"
             android:exported="true" />
         <activity
-            android:name=".Links"
+            android:name="com.educate.learnapp.Links"
             android:exported="true" />
         <activity
-            android:name=".Courses"
+            android:name="com.educate.learnapp.Courses"
             android:exported="true" />
 
         <activity
-            android:name=".GetStart"
+            android:name="com.educate.learnapp.GetStart"
             android:exported="true" />
         <activity
-            android:name=".Splash"
+            android:name="com.educate.learnapp.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.educate.learnapp.MainActivity"
             android:exported="true"
             />
     </application>

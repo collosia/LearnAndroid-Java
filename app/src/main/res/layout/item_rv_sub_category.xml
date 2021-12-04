@@ -5,7 +5,7 @@
     android:layout_width="wrap_content"
     android:orientation="vertical"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    tools:context="com.educate.learnapp.MainActivity">
 
 
     <androidx.cardview.widget.CardView

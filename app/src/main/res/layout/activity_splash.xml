@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="#272727"
     android:layout_height="match_parent"
-    tools:context=".Splash"
+    tools:context="com.educate.learnapp.Splash"
     android:orientation="vertical">
 
 

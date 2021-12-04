@@ -1,4 +1,4 @@
-package com.example.learnapp;
+package com.educate.learnapp;
 
 import android.content.Context;
 
